@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfe2f3; /* Fondo azul claro */
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #6aff6a; /* Título de color verde limón */
+            animation: titiloAnimado 2s infinite alternate; /* Animación del título */
+        }
+        @keyframes titiloAnimado {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .chat-box {
+            background-color: #ccffcc; /* Cuadros de chat de color verde limón */
+            padding: 10px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a Mi Página Web</h1>
+        <div class="chat-box">
+            <!-- Aquí puedes agregar el código HTML para tus cuadros de chat -->
+            <h2>Chat</h2>
+            <p>¡Bienvenido al chat! Puedes participar escribiendo tus mensajes aquí.</p>
+        </div>
+    </div>
+</body>
+</html>
